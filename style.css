@@ -1,0 +1,150 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  padding:0 auto;
+  margin:0 auto;
+  /* border: 1px solid black; */
+}
+
+/*----------top----------*/
+#top{
+  background-color: #eee;
+  text-align: center;
+}
+
+.logo{
+ width: 100px;
+ display: inline-block;
+ vertical-align: middle;
+ margin: 30px auto;
+}
+.logo img{
+  margin-bottom: -10px;
+}
+.logo div{
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#top ul{
+  display: inline-block;
+}
+#top li{
+  display: inline-block;
+  margin: 50px;
+  color: #818181;
+}
+#top li.orange{
+  color: #f7a220;
+}
+
+/*----------content----------*/
+#content{
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.idea{
+  display: inline-block;
+  text-align: left;
+
+  margin-top: 60px; 
+  /* 配合#content img */
+}
+
+.btn_p{
+  text-align: center;
+}
+
+#content h1{
+  font-size: 60px;
+  font-weight: 500;
+}
+#content h2{
+  font-weight: 500;
+  font-size: 30px;
+
+  margin-top: -20px;
+  margin-bottom: 5px;
+}
+#content p{
+  line-height: 22px;
+}
+#content button{
+  font-size: 25px;
+  color: white;
+  background: linear-gradient(#ffbb57 0%,#ffbb57 50%,#f99403 50%,#f99403 100%);
+
+  width: 220px;
+  padding: 15px;
+  margin-top: 20px;
+
+  border: none;
+  border-radius: 3px;
+}
+#content img{
+  margin-top: 60px;
+  margin-left: 40px;
+  vertical-align: top;
+}
+
+.btn_p p{
+  font-size: 13px;
+  width: 215px;
+  text-align: left;
+}
+
+/*----------paragraph----------*/
+#paragraph{
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 160px;
+}
+
+.pLeft, .pRight{
+  width: 420px;
+  display: inline-block;
+}
+.pRight {
+  margin-left: 40px;
+}
+
+#paragraph p, h1{
+  text-align: left;
+  margin-bottom: 20px;
+}
+#paragraph h1{
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+#paragraph p{
+  line-height: 22px; 
+}
+
+/*----------footer----------*/
+#footer{
+  background-color: #eee;
+  height: 79px;
+  text-align: center;
+  margin-top: 170px;
+}
+#footer p, .icon{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+#footer p{
+  font-size: 10px;
+}
+
+.icon div, .icon img{
+  width: 30px;
+  height: 30px;
+}
+.icon div{
+  display: inline-block;
+  margin-left: 15px;
+}
+.icon{
+  text-align: right;
+  margin-left: 500px;
+}
