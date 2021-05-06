@@ -7,10 +7,6 @@
   /* border: 0.5px solid rgb(236, 211, 64); */
 }
 
-body{
-  min-width: 900px
-}
-
 /* --------header-------- */
 header{
   background-color: #eee;
@@ -154,4 +150,48 @@ footer div{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 900px) {
+  .header_title{
+    margin-bottom: 20px;
+  }
+  header nav{
+    display: block;
+  }
+  header a{
+    display: block;
+    padding: 10px;
+  }
+
+  main h2{
+    text-align: center;
+  }
+  main img{
+    margin-top: 40px;
+  }
+  .main_btn-container span{
+    text-align: center;
+  }
+
+  .article_paragraph{
+    columns: 1;
+    max-width: 400px;
+  }
+  article h3{
+    text-align: center;
+  }
+  article p{
+    text-align: justify;
+  }
+
+  footer div{
+    display: inline-block;
+    vertical-align: top;
+  }
+  footer span, footer ul{
+    display: block;
+    margin: 0px;
+    margin-top: 10px;
+  }
 }
